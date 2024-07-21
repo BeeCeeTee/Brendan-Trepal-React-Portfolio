@@ -1,8 +1,9 @@
+import headshot from '../../Assets/images/Brendan_Headshot.jpg';
 export default function AboutPage() {
     return (
         <div>
             <h1>About Me</h1>
-            <img src="../../assets/images/Brendan_Headshot.jpg" alt="Photo of Brendan Trepal" />
+            <img src={headshot} alt="Photo of Brendan Trepal" />
             <p>
                 From a young age, I&#39;ve had a fascination with building and creating things. My weekends as a child were spent making forts in the backyard or building mansions out of Legos. In the evening, I could be found glued to the computer as I designed the next grand megalopolis in SimCity. You can still find me glued to the computer most days, only now my “Legos” are computer code and my designs come in the form of websites.
 

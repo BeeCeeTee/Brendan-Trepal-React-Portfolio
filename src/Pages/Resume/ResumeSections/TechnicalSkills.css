@@ -1,0 +1,15 @@
+li {
+    list-style: none;
+}
+
+.skills-icon {
+    width: auto;
+    height: 2.5vw;
+    filter: brightness(0) saturate(100%)
+}
+
+.skills-icon-wide {
+    width: 2.5vw;
+    height: auto;
+    filter: brightness(0) saturate(100%)
+}

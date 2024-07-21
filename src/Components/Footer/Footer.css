@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    border-top: .25vw solid black;
+}
+
+.footer {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.icon {
+    width: 2.5vw;
+    height: auto;
+}

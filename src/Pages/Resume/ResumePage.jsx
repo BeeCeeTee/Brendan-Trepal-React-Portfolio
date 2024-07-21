@@ -1,8 +1,8 @@
-import Education from '../components/ResumeSections/Education';
-import Experience from '../components/ResumeSections/Experience';
-import Projects from '../components/ResumeSections/Projects';
-import Summary from '../components/ResumeSections/Summary';
-import TechnicalSkills from '../components/ResumeSections/TechnicalSkills';
+import Education from './ResumeSections/Education';
+import Experience from './ResumeSections/Experience';
+import Projects from './ResumeSections/Projects';
+import Summary from './ResumeSections/Summary';
+import TechnicalSkills from './ResumeSections/TechnicalSkills';
 
 export default function ResumePage() {
     return (
