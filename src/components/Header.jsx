@@ -3,10 +3,11 @@ import Navigation from './Navigation';
 
 const handlePageChange = (page) => setCurrentPage(page);
 
-return (
-    <div>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-    </div>
-)
-
-export default Header;
+export default function Header() {
+    return (
+        <div>
+            <h1>Brendan Trepal</h1>
+            <Navigation />
+        </div>
+    );
+}

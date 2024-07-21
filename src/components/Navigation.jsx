@@ -1,45 +1,23 @@
-function Navigation({ currentPage, handlePageChange }) {
-    return (
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-          >
-            Portfolio
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#resume"
-            onClick={() => handlePageChange('Resume')}
-            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          >
-            Resume
-          </a>
-        </li>
-      </ul>
-    );
-  }
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
-export default Navigation;
+export default function Nav() {
+  return (
+    <Navbar
+      links={[
+        <Link key={1} className="nav-link text-light" to="/">
+          About
+        </Link>,
+        <Link key={2} className="nav-link text-light" to="/portfolio">
+          Portfolio
+        </Link>,
+        <Link key={3} className="nav-link text-light" to="/contact">
+          Contact
+        </Link>,
+        <Link key={4} className="nav-link text-light" to="/resume">
+          Resume
+        </Link>,
+      ]}
+    />
+  );
+}
