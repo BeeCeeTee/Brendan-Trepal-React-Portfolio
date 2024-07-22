@@ -1,5 +1,5 @@
 import './resume-page.css'
-import resume from '../../assets/Brendan_Trepal_Resume.pdf'
+import resume from '../../Assets/Brendan_Trepal_Resume.pdf'
 import Education from './ResumeSections/Education';
 import Experience from './ResumeSections/Experience';
 import Projects from './ResumeSections/Projects';

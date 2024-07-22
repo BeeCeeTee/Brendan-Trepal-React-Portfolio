@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
-import mongoDb from '../../../assets/solid-icons/mongodb.svg';
-import expressJs from '../../../assets/solid-icons/expressjs.svg';
-import nodeJs from '../../../assets/solid-icons/nodejs.svg';
-import jQuery from '../../../assets/solid-icons/jquery.svg';
-import handlebars from '../../../assets/solid-icons/handlebars.svg';
-import jest from '../../../assets/solid-icons/jest.svg';
+import mongoDb from '../../../Assets/solid-icons/mongodb.svg';
+import expressJs from '../../../Assets/solid-icons/expressjs.svg';
+import nodeJs from '../../../Assets/solid-icons/nodejs.svg';
+import jQuery from '../../../Assets/solid-icons/jquery.svg';
+import handlebars from '../../../Assets/solid-icons/handlebars.svg';
+import jest from '../../../Assets/solid-icons/jest.svg';
 import './TechnicalSkills.css';
 
 export default function TechnicalSkills() {
