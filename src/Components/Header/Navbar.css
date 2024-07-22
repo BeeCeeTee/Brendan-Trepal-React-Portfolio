@@ -11,3 +11,7 @@ ul {
     justify-content: space-between;
     width: 85%;
 }
+
+ul:active {
+    color: red;
+}

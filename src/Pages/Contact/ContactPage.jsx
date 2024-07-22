@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../../Utils/helpers';
+import './contact-page.css'
 
 function Form() {
   // Create state variables for the fields in the form
@@ -38,15 +39,16 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
-      <h1>Contact Me</h1>
-      <form className="form" onSubmit={handleFormSubmit}>
+    <div className="contact-page">
+      <h1 className='contact-heading'>Contact Me</h1>
+      <form className="contact-form" onSubmit={handleFormSubmit}>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
+          className='contact-input'
         />
         <input
           value={email}
@@ -54,6 +56,7 @@ function Form() {
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
+          className='contact-input'
         />
         <textarea
           name="message"
@@ -61,12 +64,13 @@ function Form() {
           rows="4"
           cols="50"
           placeholder="Your message here..."
+          className='contact-message'
         />
-        <button type="submit">Submit</button>
+        <button type="submit" className='contact-submit'>Submit</button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="contact-error">{errorMessage}</p>
         </div>
       )}
     </div>

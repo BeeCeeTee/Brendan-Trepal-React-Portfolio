@@ -1,0 +1,106 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1vw;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: .25vw;
+    border-image-source: var(--accent-gradient);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.projects-heading {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-subtitle {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 500;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+}
+
+.projects-icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-logo {
+    width: auto;
+    height: 10vw;
+    background: var(--accent-radial-gradient);
+    transition: height .2s ease-in-out, margin-bottom .2s ease-in-out;
+    border-radius: 3vw;
+    margin-bottom: 2vw;
+    position: static;
+}
+
+.projects-logo:hover {
+    height: 10.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.projects-logo-wide {
+    width: auto;
+    height: 10vw;
+    background-image: var(--accent-radial-gradient);
+    transition: height .2s ease-in-out, margin-bottom .2s ease-in-out;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 3vw;
+    margin-bottom: 2vw;
+}
+
+.projects-logo-wide:hover {
+    height: 10.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.projects-icon {
+    width: auto;
+    height: 4vw;
+    filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
+}
+
+.projects-icon:visited {
+    filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
+}
+
+.projects-icon:hover {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(4%) saturate(1747%) hue-rotate(184deg) brightness(106%) contrast(103%);
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+    font-family: var(--body-font);
+    font-size: 1.75vw;
+    line-height: 2.5vw;
+    letter-spacing: .10vw;
+    width: 85%;
+    text-align: start;
+    list-style-position: outside;
+}

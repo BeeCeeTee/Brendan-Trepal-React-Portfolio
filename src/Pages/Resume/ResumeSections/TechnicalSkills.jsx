@@ -14,7 +14,7 @@ export default function TechnicalSkills() {
         <div className='technical-skills'>
             <h2 className='technical-heading'>Technical Skills</h2>
             <div className='technical-container-outer'>
-                <div className='technical-container-inner'>
+                <div className='technical-container-inner-1'>
                     <b className='technical-subtitle'>Programming Languages:</b>
                     <ul className='technical-list-1'>
                         <li><FontAwesomeIcon icon={faHtml5} className='skills-icon html' /></li>
@@ -23,7 +23,7 @@ export default function TechnicalSkills() {
                         <li><FontAwesomeIcon icon={faDatabase} className='skills-icon sql' /></li>
                     </ul>
                 </div>
-                <div className='technical-container-inner'>
+                <div className='technical-container-inner-2'>
                     <b className='technical-subtitle'>Frameworks & Systems:</b>
                     <ul className='technical-list-2'>
                         <li><img src={mongoDb} alt="mongo db logo" className='skills-icon mongo' /></li>

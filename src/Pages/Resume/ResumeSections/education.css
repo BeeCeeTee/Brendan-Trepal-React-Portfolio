@@ -1,0 +1,62 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+.education-heading {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-subtitle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.education-subtitle {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 600;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    margin-top: 5vw;
+}
+
+.education-type-location {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--text);
+    font-family: var(--alternate-font);
+    margin: 0;
+}
+
+.education-paragraph {
+    color: var(--text);
+    font-family: var(--body-font);
+    text-indent: 3vw;
+    font-size: 1.75vw;
+    line-height: 2.5vw;
+    letter-spacing: .10vw;
+    width: 75%;
+}
