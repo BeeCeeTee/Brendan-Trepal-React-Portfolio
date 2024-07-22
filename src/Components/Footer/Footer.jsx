@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
-import './footer.css';
+import './Footer.css';
 
 export default function Education() {
     return (
