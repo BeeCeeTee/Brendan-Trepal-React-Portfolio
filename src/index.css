@@ -1,7 +1,21 @@
 :root {
-    --text: #e4e4e4;
-    --background: #10445a;
-    --primary: #065672;
-    --secondary: #354551;
-    --accent: #b2d8ea;
+    /* Colors */
+    --text: #C6ECFF;
+    --background: #092936;
+    --primary: #135168;
+    --secondary: #5e7689;
+    --accent: #F7DBA7;
+    --highlight: #e0f5ff; 
+    --background-gradient: radial-gradient(#135168 20%, #092936 80%);
+    --accent-gradient: linear-gradient(to right,#94815e00, #94815e, #F7DBA7, #94815e, #94815e00);
+    /* Fonts */
+    --heading-font: "Michroma", sans-serif;
+    --subtitle-font: "Roboto Condensed", sans-serif;
+    --body-font: "Montserrat", sans-serif;
+    --alternate-font: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 3vw;
+    background-image: var(--background-gradient);
 }

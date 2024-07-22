@@ -1,3 +1,14 @@
 .link {
     text-decoration: none;
+    color: var(--text);
+    font-family: var(--subtitle-font);
+    font-size: 2vw;
+}
+
+.link:visited {
+    color: var(--text);
+}
+
+.link:hover {
+    color: var(--highlight);
 }

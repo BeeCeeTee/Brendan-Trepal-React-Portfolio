@@ -1,0 +1,46 @@
+.resume-page {
+    margin: 3vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-heading {
+    color: var(--text);
+    font-family: var(--subtitle-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.resume-paragraph {
+    color: var(--text);
+    font-family: var(--body-font);
+    font-size: 1.75vw;
+    line-height: 2.5vw;
+    letter-spacing: .10vw;
+}
+
+.resume-download {
+    color: var(--accent);
+    font-family: var(--body-font);
+    text-indent: 3vw;
+    font-size: 1.75vw;
+    line-height: 2.5vw;
+    letter-spacing: .10vw;
+    text-decoration: none;
+}
+
+.resume-download:hover {
+    color: var(--highlight);
+}
+
+.resume-download:visited {
+    color: var(--accent);
+}
+
+.resume-container {
+    width: 100%;
+}
