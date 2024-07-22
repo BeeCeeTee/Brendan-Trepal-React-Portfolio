@@ -1,4 +1,4 @@
-import headshot from '../../Assets/images/Brendan_Headshot.jpg';
+import headshot from '../../assets/images/Brendan_Headshot.jpg';
 import './about-page.css'
 export default function AboutPage() {
     return (
