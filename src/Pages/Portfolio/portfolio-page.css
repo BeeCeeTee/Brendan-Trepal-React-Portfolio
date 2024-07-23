@@ -5,3 +5,16 @@
     justify-content: center;
     align-items: center;
 }
+
+.portfolio-heading {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: .25vw;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+.portfolio-container {
+    
+}
