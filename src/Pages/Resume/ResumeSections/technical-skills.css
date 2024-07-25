@@ -64,7 +64,6 @@
     list-style: none;
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .technical-list-2 {
@@ -83,12 +82,10 @@
 
 .skills-icon {
     width: auto;
-    height: 4vw;
     filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
 }
 
 .skills-icon-wide {
-    width: 4vw;
     height: auto;
     filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
 }
@@ -150,58 +147,141 @@
 }
 
 /* DESKTOP VIEW =============================================================================================> */
-@media screen and (min-width: 960px) { 
+@media screen and (min-width: 960px) {
     .technical-heading {
-        font-size: 3vw;
+        font-size: 1.91rem;
     }
-    
+
     .technical-subtitle {
-        font-size: 1.75vw;
-        line-height: 2.5vw;
+        font-size: 1.54rem;
     }
-    
-    .technical-container-outer {
-        width: 75%;
-    }
-    
+
     .technical-list-1 {
-        list-style: none;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
     }
-    
-    .technical-list-2 {
-        list-style: none;
-        width: 53.8%;
+
+    .technical-subgroup {
         display: flex;
-        justify-content: space-between;
+        flex-direction: row
+        justify;
+        width: 61.54%;
     }
-    
-    .technical-list-3 {
-        list-style: none;
-        width: 23%;
+
+    .technical-list-1-group-1 {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        width: 62.5%;
     }
-    
+
+    .technical-list-1-group-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 37.5%;
+    }
+
+    .technical-list-1-group-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 38.46%;
+    }
+
     .skills-icon {
-        width: auto;
         height: 4vw;
-        filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
     }
-    
+
     .skills-icon-wide {
         width: 4vw;
-        height: auto;
-        filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
-    
+    .technical-heading {
+        font-size: 1.81rem;
+    }
+
+    .technical-subtitle {
+        font-size: 1.46rem;
+    }
+
+    .skills-icon {
+        height: 4vw;
+    }
+
+    .skills-icon-wide {
+        width: 4vw;
+    }
 }
 
 /* MOBILE VIEW =============================================================================================> */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .technical-heading {
+        font-size: 1.71rem;
+    }
+
+    .technical-subtitle {
+        font-size: 1.37rem;
+    }
+
+    .technical-list-1 {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 30vw;
+    }
+
+    .technical-subgroup {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .technical-list-1-group-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 71.43%;
+    }
+
+    .technical-list-1-group-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 28.57%;
+    }
+
+    .technical-list-1-group-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 71.43%;
+    }
+
+    .technical-list-2 {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .technical-list-3 {
+        list-style: none;
+        width: 42.86%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills-icon {
+        height: 8vw;
+    }
+
+    .skills-icon-wide {
+        width: 8vw;
+    }
+}

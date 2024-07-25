@@ -9,7 +9,7 @@ import TechnicalSkills from './ResumeSections/TechnicalSkills';
 export default function ResumePage() {
     return (
         <div className='resume-page'>
-            <h1 className='resume-heading'>Resume</h1>
+            <h2 className='resume-heading'>Resume</h2>
             <br/>
             <p className='resume-paragraph'>Download my <a href={resume} download className='resume-download'>resume</a></p>
             <br/>

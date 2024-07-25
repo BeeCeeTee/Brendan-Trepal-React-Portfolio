@@ -8,10 +8,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default function RelatedExperience() {
     return (
         <div className='related-experience'>
-            <h2 className='related-experience-heading'>Related Experience</h2>
+            <h3 className='related-experience-heading'>Related Experience</h3>
             <div className='related-experience-container'>
                 <div className='related-experience-subtitle-container'>
-                    <p className='related-experience-subtitle'>Freelance Web Designer/Front End Developer</p>
+                    <h4 className='related-experience-subtitle'>Freelance Web Designer/Front End Developer</h4>
                     <div className='related-experience-year-location'>
                         <p className='related-experience-year'>2023-present</p>
                         <p className='related-experience-location'>Cleveland, OH</p>
@@ -24,7 +24,7 @@ export default function RelatedExperience() {
                     RESTful web API for data storage and retrieval from a database.</p>
             </div>
             <div className='related-experience-container'>
-                <h3 className='related-experience-subtitle'>NutriFit</h3>
+                <h4 className='related-experience-subtitle'>NutriFit</h4>
                 <div className='related-experience-icon-container'>
                     <a href="https://nutrifit-47ii.onrender.com" target='_blank'><img className='related-experience-logo-1' src={nutrifit} alt="NutriFit Logo" /></a>
                     <a href="https://github.com/rvanetta97/NutriFit" target='_blank'><FontAwesomeIcon icon={faGithub} className='related-experience-icon' /></a>
@@ -41,7 +41,7 @@ export default function RelatedExperience() {
             </div>
             <br />
             <div className='related-experience-container'>
-                <h3 className='related-experience-subtitle'>TimeCapsule</h3>
+                <h4 className='related-experience-subtitle'>TimeCapsule</h4>
                 <div className='related-experience-icon-container'>
                     <a href="https://beeceetee.github.io/TimeCapsule" target='_blank'><img className='related-experience-logo-2' src={timecapsule} alt="TimeCapsule Logo" width="128" height="128" /></a>
                     <a href="https://github.com/BeeCeeTee/TimeCapsule" target='_blank'><FontAwesomeIcon icon={faGithub} className='related-experience-icon' /></a>
@@ -57,7 +57,7 @@ export default function RelatedExperience() {
             </div>
             <br />
             <div className='related-experience-container'>
-                <h3 className='related-experience-subtitle'>Tim Trepal</h3>
+                <h4 className='related-experience-subtitle'>Tim Trepal</h4>
                 <div className='related-experience-icon-container'>
                     <a href="https://www.timtrepal.com" target='_blank'><img className='related-experience-logo-3' src={timtrepal} alt="Tim Trepal Logo" width="128" height="128" /></a>
                     <a href="https://github.com/thomas-forte/tim-trepal" target='_blank'><FontAwesomeIcon icon={faGithub} className='related-experience-icon' /></a>

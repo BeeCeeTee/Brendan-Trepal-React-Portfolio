@@ -24,7 +24,7 @@
 .resume-download {
     color: var(--accent);
     font-family: var(--body-font);
-    line-height: 2.5vw;
+    line-height: 1.5rem;
     letter-spacing: .10vw;
     text-decoration: none;
 }
@@ -44,44 +44,44 @@
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .resume-heading {
-        font-size: 4vw;
+        font-size: 2.36rem;
     }
 
     .resume-paragraph {
-        font-size: 1.75vw;
+        font-size: 1rem;
     }
 
     .resume-download {
-        font-size: 1.75vw;
+        font-size: 1rem;
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .resume-heading {
-        font-size: 6vw;
+        font-size: 2.25rem;
     }
 
     .resume-paragraph {
-        font-size: 3vw;
+        font-size: .938rem;
     }
 
     .resume-download {
-        font-size: 3vw;
+        font-size: .938rem;
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .resume-heading {
-        font-size: 8vw;
+        font-size: 2.14rem;
     }
 
     .resume-paragraph {
-        font-size: 5vw;
+        font-size: .875rem;
     }
 
     .resume-download {
-        font-size: 5vw;
+        font-size: .875rem;
     }
 }

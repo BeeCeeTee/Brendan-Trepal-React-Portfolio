@@ -6,10 +6,10 @@
     --secondary: #5e7689;
     --accent: #F7DBA7;
     --accent-opaque: #f7dba780;
-    --highlight: #e0f5ff; 
+    --highlight: #e0f5ff;
     --background-gradient: radial-gradient(#135168 20%, #092936 80%);
-    --accent-gradient: linear-gradient(to right,#94815e00, #94815e, #F7DBA7, #94815e, #94815e00);
-    --accent-radial-gradient: radial-gradient(#F7DBA7 50%, #94815e );
+    --accent-gradient: linear-gradient(to right, #94815e00, #94815e, #F7DBA7, #94815e, #94815e00);
+    --accent-radial-gradient: radial-gradient(#F7DBA7 50%, #94815e);
     --accent-radial-gradient-2: radial-gradient(#F7DBA7 60%, #94815e);
     /* Fonts */
     --heading-font: "Michroma", sans-serif;

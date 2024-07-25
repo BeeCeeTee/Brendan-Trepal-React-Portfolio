@@ -3,7 +3,7 @@ import './about-page.css'
 export default function AboutPage() {
     return (
         <div className='about-page'>
-            <h1 className='about-heading'>About Me</h1>
+            <h2 className='about-heading'>About Me</h2>
             <img src={headshot} alt="Photo of Brendan Trepal" className='about-headshot' />
             <div className='about-paragraph-container'>
                 <p className='about-paragraph'>

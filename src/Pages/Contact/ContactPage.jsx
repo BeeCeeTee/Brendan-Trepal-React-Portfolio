@@ -40,7 +40,7 @@ function Form() {
 
   return (
     <div className="contact-page">
-      <h1 className='contact-heading'>Contact Me</h1>
+      <h2 className='contact-heading'>Contact Me</h2>
       <form className="contact-form" onSubmit={handleFormSubmit}>
         <input
           value={name}

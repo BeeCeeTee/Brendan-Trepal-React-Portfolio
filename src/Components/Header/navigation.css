@@ -16,20 +16,20 @@
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .link {
-        font-size: 2vw;
+        font-size: 1.54rem;
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .link {
-        font-size: 3vw;
+        font-size: 1.46rem;
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .link {
-        font-size: 5vw;
+        font-size: 1.37rem;
     }
 }

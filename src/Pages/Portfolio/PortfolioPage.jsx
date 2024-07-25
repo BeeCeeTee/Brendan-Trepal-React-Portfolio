@@ -37,7 +37,7 @@ const timtrepal = {
 export default function PortfolioPage() {
     return (
         <div className='portfolio-page'>
-            <h1 className='portfolio-heading'>Portfolio</h1>
+            <h2 className='portfolio-heading'>Portfolio</h2>
             <div className='portfolio-container'>
                 <Project image={nutrifit.image} name={nutrifit.name} link={nutrifit.link} logo={nutrifit.logo} github={nutrifit.github} techs={nutrifit.techs} />
                 <Project image={timecapsule.image} name={timecapsule.name} link={timecapsule.link} logo={timecapsule.logo} github={timecapsule.github} techs={timecapsule.techs} />
