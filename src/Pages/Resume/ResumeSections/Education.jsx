@@ -6,7 +6,7 @@ export default function Education() {
             <h2 className='education-heading'>Education</h2>
             <div className='education-container'>
                 <div className='education-subtitle-container'>
-                    <p className='experience-subtitle'>Full Stack Web Development Boot Camp Certificate</p>
+                    <p className='education-subtitle'>Full Stack Web Development Boot Camp Certificate</p>
                     <p className='education-type-location'>Case Western Reserve University, Cleveland, OH</p>
                 </div>
                 <p className='education-paragraph'>An intensive, 6-month program focused on gaining technical programming skills in HTML5, CSS3, JavaScript,
@@ -14,7 +14,7 @@ export default function Education() {
             </div>
             <div className='education-container'>
                 <div className='education-subtitle-container'>
-                    <p className='experience-subtitle'>Bachelor of Science in Communication</p>
+                    <p className='education-subtitle'>Bachelor of Science in Communication</p>
                     <p className='education-type-location'>Ohio University, Athens, OH</p>
                 </div>
                 <p className='education-paragraph'>A 4-year undergraduate degree specializing in visual communication.</p>

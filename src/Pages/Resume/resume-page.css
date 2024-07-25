@@ -1,3 +1,4 @@
+/* COMMON =============================================================================================> */
 .resume-page {
     margin: 3vw 3vw;
     display: flex;
@@ -12,22 +13,17 @@
     font-variant: small-caps;
     letter-spacing: .25vw;
     font-weight: 500;
-    font-size: 4vw;
 }
 
 .resume-paragraph {
     color: var(--text);
     font-family: var(--body-font);
-    font-size: 1.75vw;
-    line-height: 2.5vw;
     letter-spacing: .10vw;
 }
 
 .resume-download {
     color: var(--accent);
     font-family: var(--body-font);
-    text-indent: 3vw;
-    font-size: 1.75vw;
     line-height: 2.5vw;
     letter-spacing: .10vw;
     text-decoration: none;
@@ -42,5 +38,50 @@
 }
 
 .resume-container {
-    width: 100%;
+    width: 90vw;
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .resume-heading {
+        font-size: 4vw;
+    }
+
+    .resume-paragraph {
+        font-size: 1.75vw;
+    }
+
+    .resume-download {
+        font-size: 1.75vw;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .resume-heading {
+        font-size: 6vw;
+    }
+
+    .resume-paragraph {
+        font-size: 3vw;
+    }
+
+    .resume-download {
+        font-size: 3vw;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .resume-heading {
+        font-size: 8vw;
+    }
+
+    .resume-paragraph {
+        font-size: 5vw;
+    }
+
+    .resume-download {
+        font-size: 5vw;
+    }
 }

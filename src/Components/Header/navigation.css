@@ -1,8 +1,8 @@
+/* COMMON =============================================================================================> */
 .link {
     text-decoration: none;
     color: var(--text);
     font-family: var(--subtitle-font);
-    font-size: 2vw;
 }
 
 .link:visited {
@@ -11,4 +11,25 @@
 
 .link:hover {
     color: var(--highlight);
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .link {
+        font-size: 2vw;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .link {
+        font-size: 3vw;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .link {
+        font-size: 5vw;
+    }
 }

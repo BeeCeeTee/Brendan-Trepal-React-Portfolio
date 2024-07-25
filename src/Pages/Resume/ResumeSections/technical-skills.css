@@ -1,3 +1,4 @@
+/* COMMON =============================================================================================> */
 .technical-skills {
     display: flex;
     flex-direction: column;
@@ -61,14 +62,21 @@
 
 .technical-list-1 {
     list-style: none;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .technical-list-2 {
     list-style: none;
-    width: 100%;
+    width: 53.8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.technical-list-3 {
+    list-style: none;
+    width: 23%;
     display: flex;
     justify-content: space-between;
 }
@@ -86,7 +94,7 @@
 }
 
 /* Individual icon hover colors */
-/* Programming Languages */
+/* Front End */
 .html:hover {
     filter: brightness(0) saturate(100%) invert(28%) sepia(99%) saturate(1506%) hue-rotate(351deg) brightness(101%) contrast(82%);
 }
@@ -99,25 +107,8 @@
     filter: brightness(0) saturate(100%) invert(85%) sepia(19%) saturate(1849%) hue-rotate(354deg) brightness(109%) contrast(94%);
 }
 
-.sql:hover {
-    filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(7287%) hue-rotate(353deg) brightness(94%) contrast(84%);
-}
-
-/* Frameworks & Systems */
-.mongo:hover {
-    filter: brightness(0) saturate(100%) invert(30%) sepia(14%) saturate(3784%) hue-rotate(121deg) brightness(94%) contrast(101%);
-}
-
-.express:hover {
-    filter: brightness(0) saturate(100%) invert(62%) sepia(9%) saturate(21%) hue-rotate(348deg) brightness(90%) contrast(88%);
-}
-
 .react:hover {
     filter: brightness(0) saturate(100%) invert(75%) sepia(27%) saturate(821%) hue-rotate(155deg) brightness(97%) contrast(102%);
-}
-
-.node:hover {
-    filter: brightness(0) saturate(100%) invert(93%) sepia(70%) saturate(687%) hue-rotate(28deg) brightness(83%) contrast(85%);
 }
 
 .jquery:hover {
@@ -132,6 +123,85 @@
     filter: brightness(0) saturate(100%) invert(19%) sepia(39%) saturate(385%) hue-rotate(349deg) brightness(93%) contrast(94%);
 }
 
+/* Back End */
+.sql:hover {
+    filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(7287%) hue-rotate(353deg) brightness(94%) contrast(84%);
+}
+
+.express:hover {
+    filter: brightness(0) saturate(100%) invert(62%) sepia(9%) saturate(21%) hue-rotate(348deg) brightness(90%) contrast(88%);
+}
+
+.node:hover {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(70%) saturate(687%) hue-rotate(28deg) brightness(83%) contrast(85%);
+}
+
+.mongo:hover {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(14%) saturate(3784%) hue-rotate(121deg) brightness(94%) contrast(101%);
+}
+
+/* Other */
 .jest:hover {
     filter: brightness(0) saturate(100%) invert(29%) sepia(36%) saturate(972%) hue-rotate(292deg) brightness(99%) contrast(84%);
 }
+
+.graphql:hover {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(72%) saturate(1736%) hue-rotate(291deg) brightness(90%) contrast(99%);
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) { 
+    .technical-heading {
+        font-size: 3vw;
+    }
+    
+    .technical-subtitle {
+        font-size: 1.75vw;
+        line-height: 2.5vw;
+    }
+    
+    .technical-container-outer {
+        width: 75%;
+    }
+    
+    .technical-list-1 {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .technical-list-2 {
+        list-style: none;
+        width: 53.8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .technical-list-3 {
+        list-style: none;
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .skills-icon {
+        width: auto;
+        height: 4vw;
+        filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
+    }
+    
+    .skills-icon-wide {
+        width: 4vw;
+        height: auto;
+        filter: brightness(0) saturate(100%) invert(96%) sepia(60%) saturate(1135%) hue-rotate(171deg) brightness(101%) contrast(100%);
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {}

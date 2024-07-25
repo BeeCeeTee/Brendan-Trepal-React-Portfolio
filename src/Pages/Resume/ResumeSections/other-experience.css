@@ -1,32 +1,38 @@
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
-    .education {
+    .other-experience {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         padding-bottom: 1vw;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: .25vw;
+        border-image-source: var(--accent-gradient);
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
     }
 
-    .education-heading {
+    .other-experience-heading {
         color: var(--text);
         font-family: var(--alternate-font);
         font-variant: small-caps;
         letter-spacing: .25vw;
         font-weight: 500;
         font-size: 3vw;
-        margin-bottom: 3vw;
     }
 
-    .education-container {
+    .other-experience-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .education-subtitle-container {
+    .other-experience-subtitle-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,18 +40,25 @@
         width: 75%;
     }
 
-    .education-subtitle {
+    .other-experience-subtitle {
         color: var(--text);
         font-family: var(--alternate-font);
         font-variant: small-caps;
         letter-spacing: .25vw;
-        font-weight: 600;
         font-size: 2vw;
+        font-weight: 600;
         margin-bottom: 2vw;
-        margin-top: 5vw;
+        margin-top: 3vw;
     }
 
-    .education-type-location {
+    .other-experience-year-location {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .other-experience-year {
         display: flex;
         justify-content: flex-start;
         color: var(--text);
@@ -53,7 +66,15 @@
         margin: 0;
     }
 
-    .education-paragraph {
+    .other-experience-location {
+        display: flex;
+        justify-content: flex-end;
+        color: var(--text);
+        font-family: var(--alternate-font);
+        margin: 0;
+    }
+
+    .other-experience-paragraph {
         color: var(--text);
         font-family: var(--body-font);
         text-indent: 3vw;

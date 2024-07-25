@@ -1,7 +1,7 @@
+/* COMMON =============================================================================================> */
 .header-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
     margin: 0 3vw 0 3vw;
     padding: 1vw 2vw 1vw 2vw;
     border: 10px solid;
@@ -14,10 +14,46 @@
 }
 
 .header-title {
-    display: flex;
-    align-items: center;
     color: var(--text);
     font-family: var(--heading-font);
     font-variant: small-caps;
     letter-spacing: .5vw;
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-title {
+        font-size: 3vw;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-title {
+        text-align: center;
+        font-size: 5vw;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-title {
+        text-align: center;
+        font-size: 7vw;
+    }
 }

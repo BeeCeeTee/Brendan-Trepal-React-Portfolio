@@ -1,17 +1,50 @@
+/* COMMON =============================================================================================> */
 .navbar-nav {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    width: 50%;
 }
 
 ul {
     display: flex;
     padding: 0;
     justify-content: space-between;
-    width: 85%;
 }
 
-ul:active {
-    color: red;
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .navbar-nav {
+        justify-content: flex-end;
+        width: 50%;
+    }
+    
+    ul {
+        width: 85%;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .navbar-nav {
+        justify-content: center;
+        width: 70%;
+    }
+    
+    .navbar-ul {
+        width: 100%;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    ul {
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        width: 85%;
+    }
 }

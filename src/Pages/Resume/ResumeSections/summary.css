@@ -1,3 +1,4 @@
+/* DESKTOP VIEW =============================================================================================> */
 .summary {
     display: flex;
     flex-direction: column;
@@ -19,7 +20,6 @@
     font-variant: small-caps;
     letter-spacing: .25vw;
     font-weight: 500;
-    font-size: 3vw;
     margin-bottom: 0;
 }
 
@@ -27,8 +27,44 @@
     color: var(--text);
     font-family: var(--body-font);
     text-indent: 3vw;
-    font-size: 1.75vw;
-    line-height: 2.5vw;
     letter-spacing: .10vw;
-    width: 75%;
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {   
+    .summary-heading {
+        font-size: 3vw;
+    }
+    
+    .summary-paragraph {
+        font-size: 1.75vw;
+        width: 75%;
+        line-height: 2.5vw;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .summary-heading {
+        font-size: 4vw;
+    }
+    
+    .summary-paragraph {
+        font-size: 2.5vw;
+        width: 85%;
+        line-height: 3.25vw;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .summary-heading {
+        font-size: 6vw;
+    }
+    
+    .summary-paragraph {
+        font-size: 4vw;
+        width: 95%;
+        line-height: 5vw;
+    }
 }

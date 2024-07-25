@@ -1,8 +1,8 @@
 import './resume-page.css'
 import resume from '../../Assets/Brendan_Trepal_Resume.pdf'
 import Education from './ResumeSections/Education';
-import Experience from './ResumeSections/Experience';
-import Projects from './ResumeSections/Projects';
+import OtherExperience from './ResumeSections/OtherExperience';
+import RelatedExperience from './ResumeSections/RelatedExperience';
 import Summary from './ResumeSections/Summary';
 import TechnicalSkills from './ResumeSections/TechnicalSkills';
 
@@ -22,11 +22,11 @@ export default function ResumePage() {
             </div>
             <br/>
             <div className='resume-container'>
-                <Projects />
+                <RelatedExperience />
             </div>
             <br/>
             <div className='resume-container'>
-                <Experience />
+                <OtherExperience />
             </div>
             <br/>
             <div className='resume-container'>
