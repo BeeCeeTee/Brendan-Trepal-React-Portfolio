@@ -13,6 +13,11 @@
     color: var(--highlight);
 }
 
+.link.active {
+    text-decoration: underline;
+    text-underline-offset: 1vw;
+}
+
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .link {
