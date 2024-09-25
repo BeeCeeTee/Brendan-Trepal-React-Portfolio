@@ -26,20 +26,20 @@
 .summary-paragraph {
     color: var(--text);
     font-family: var(--body-font);
-    text-indent: 3vw;
+    text-indent: 2.5rem;
     letter-spacing: .10vw;
+    line-height: 1.5rem;
 }
 
 /* DESKTOP VIEW =============================================================================================> */
-@media screen and (min-width: 960px) {   
+@media screen and (min-width: 960px) {
     .summary-heading {
         font-size: 1.91rem;
     }
-    
+
     .summary-paragraph {
         font-size: 1rem;
-        width: 50ch;
-        line-height: 1.5rem;
+        width: 62ch;
     }
 }
 
@@ -48,11 +48,10 @@
     .summary-heading {
         font-size: 1.81rem;
     }
-    
+
     .summary-paragraph {
         font-size: .938rem;
-        width: 40ch;
-        line-height: 1.5rem;
+        width: 46ch;
     }
 }
 
@@ -61,10 +60,9 @@
     .summary-heading {
         font-size: 1.71rem;
     }
-    
+
     .summary-paragraph {
         font-size: .875rem;
         width: 30ch;
-        line-height: 1.5rem;
     }
 }

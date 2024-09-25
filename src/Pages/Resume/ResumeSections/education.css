@@ -1,11 +1,9 @@
-/* DESKTOP VIEW =============================================================================================> */
-@media screen and (min-width: 960px) {
+/* COMMON =============================================================================================> */
     .education {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
         padding-bottom: 1vw;
     }
 
@@ -15,7 +13,6 @@
         font-variant: small-caps;
         letter-spacing: .25vw;
         font-weight: 500;
-        font-size: 3vw;
         margin-bottom: 3vw;
     }
 
@@ -31,7 +28,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 75%;
+        text-align: center;
     }
 
     .education-subtitle {
@@ -40,32 +37,85 @@
         font-variant: small-caps;
         letter-spacing: .25vw;
         font-weight: 600;
-        font-size: 2vw;
-        margin-bottom: 2vw;
         margin-top: 5vw;
     }
 
-    .education-type-location {
+    .education-location {
         display: flex;
         justify-content: flex-start;
         color: var(--text);
         font-family: var(--alternate-font);
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 2vw;
     }
 
     .education-paragraph {
         color: var(--text);
         font-family: var(--body-font);
-        text-indent: 3vw;
-        font-size: 1.75vw;
-        line-height: 2.5vw;
+        text-indent: 2.5rem;
+        line-height: 1.5rem;
         letter-spacing: .10vw;
-        width: 75%;
+    }
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .education-heading {
+        font-size: 1.91rem;
+    }
+
+    .education-subtitle-container {
+        width: 100%;
+    }
+
+    .education-subtitle {
+        font-size: 1.54rem;
+        margin-bottom: 2vw;
+    }
+
+    .education-paragraph {
+        font-size: 1rem;
+        width: 62ch;
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
-@media screen and (min-width: 769px) and (max-width: 959px) {}
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .education-heading {
+        font-size: 1.81rem;
+    }
+
+    .education-subtitle-container {
+        width: 90%;
+    }
+
+    .education-subtitle {
+        font-size: 1.46rem;
+        margin-bottom: 3vw;
+    }
+
+    .education-paragraph {
+        font-size: .938rem;
+        width: 46ch;
+    }
+}
 
 /* MOBILE VIEW =============================================================================================> */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .education-heading {
+        font-size: 1.71rem;
+    }
+
+    .education-subtitle-container {
+        width: 70%;
+    }
+
+    .education-subtitle {
+        font-size: 1.37rem;
+        margin-bottom: 4vw;
+    }
+
+    .education-paragraph {
+        font-size: .875rem;
+        width: 30ch;
+    }
+}
