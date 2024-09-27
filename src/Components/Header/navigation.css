@@ -3,6 +3,9 @@
     text-decoration: none;
     color: var(--text);
     font-family: var(--subtitle-font);
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .link:visited {
@@ -15,26 +18,26 @@
 
 .link.active {
     text-decoration: underline;
-    text-underline-offset: 1vw;
+    text-underline-offset: .75rem;
 }
 
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .link {
-        font-size: 1.54rem;
+        font-size: var(--dh4);
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .link {
-        font-size: 1.46rem;
+        font-size: var(--th4);
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .link {
-        font-size: 1.09rem;
+        font-size: var(--mh6);
     }
 }

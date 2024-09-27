@@ -1,66 +1,68 @@
 /* COMMON =============================================================================================> */
-    .education {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 1vw;
-    }
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
+}
 
-    .education-heading {
-        color: var(--text);
-        font-family: var(--alternate-font);
-        font-variant: small-caps;
-        letter-spacing: .25vw;
-        font-weight: 500;
-        margin-bottom: 3vw;
-    }
+.education-heading {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
 
-    .education-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .education-subtitle-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+.education-subtitle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-    .education-subtitle {
-        color: var(--text);
-        font-family: var(--alternate-font);
-        font-variant: small-caps;
-        letter-spacing: .25vw;
-        font-weight: 600;
-        margin-top: 5vw;
-    }
+.education-subtitle {
+    color: var(--text);
+    font-family: var(--alternate-font);
+    font-variant: small-caps;
+    letter-spacing: var(--ls);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-    .education-location {
-        display: flex;
-        justify-content: flex-start;
-        color: var(--text);
-        font-family: var(--alternate-font);
-        margin-top: 0;
-        margin-bottom: 2vw;
-    }
+.education-location {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--text);
+    font-family: var(--alternate-font);
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
 
-    .education-paragraph {
-        color: var(--text);
-        font-family: var(--body-font);
-        text-indent: 2.5rem;
-        line-height: 1.5rem;
-        letter-spacing: .10vw;
-    }
+.education-paragraph {
+    color: var(--text);
+    font-family: var(--body-font);
+}
 
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .education-heading {
-        font-size: 1.91rem;
+        font-size: var(--dh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .education-subtitle-container {
@@ -68,20 +70,21 @@
     }
 
     .education-subtitle {
-        font-size: 1.54rem;
-        margin-bottom: 2vw;
+        font-size: var(--dh3);
     }
 
     .education-paragraph {
-        font-size: 1rem;
-        width: 62ch;
+        font-size: var(--dh6);
+        width: var(--dpw);
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .education-heading {
-        font-size: 1.81rem;
+        font-size: var(--th2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .education-subtitle-container {
@@ -89,20 +92,21 @@
     }
 
     .education-subtitle {
-        font-size: 1.46rem;
-        margin-bottom: 3vw;
+        font-size: var(--th3);
     }
 
     .education-paragraph {
-        font-size: .938rem;
-        width: 46ch;
+        font-size: var(--th6);
+        width: var(--tpw);
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .education-heading {
-        font-size: 1.71rem;
+        font-size: var(--mh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .education-subtitle-container {
@@ -110,12 +114,11 @@
     }
 
     .education-subtitle {
-        font-size: 1.37rem;
-        margin-bottom: 4vw;
+        font-size: var(--mh3);
     }
 
     .education-paragraph {
-        font-size: .875rem;
-        width: 30ch;
+        font-size: var(--mh6);
+        width: var(--mpw);
     }
 }

@@ -5,18 +5,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .about-heading {
     color: var(--text);
     font-family: var(--subtitle-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
+    text-decoration: underline double .15rem;
+    text-underline-offset: .75rem;
     font-weight: 500;
 }
 
 .about-headshot {
-    width: 20vw;
     height: auto;
     border-radius: 100%;
     border: .25vw solid var(--accent);
@@ -30,19 +33,21 @@
 .about-paragraph {
     color: var(--text);
     font-family: var(--body-font);
-    line-height: 1.5rem;
-    text-indent: 2.5rem;
-    letter-spacing: .10vw;
+    margin-bottom: 2rem;
 }
 
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .about-heading {
-        font-size: 2.93rem;
+        font-size: var(--dh1);
+    }
+
+    .about-headshot {
+        width: 20vw;
     }
 
     .about-paragraph {
-        font-size: 1rem;
+        font-size: var(--dh6);
         width: 62ch;
     }
 }
@@ -50,23 +55,32 @@
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .about-heading {
-        font-size: 2.80rem;
+        font-size: var(--th1);
+    }
+
+    .about-headshot {
+        width: 40vw;
     }
 
     .about-paragraph {
-        font-size: .938rem;
-        width: 46ch;
+        font-size: var(--th6);
+        width:46ch;
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .about-heading {
-        font-size: 2.14rem;
+        font-size: var(--mh1);
+    }
+
+    .about-headshot {
+        width: 60vw;
+        margin-bottom: 2vw;
     }
 
     .about-paragraph {
-        font-size: .875rem;
+        font-size: var(--mh6);
         width: 30ch;
     }
 }

@@ -1,3 +1,4 @@
+/* COMMON =============================================================================================> */
 .footer-container {
     display: flex;
     justify-content: center;
@@ -13,14 +14,13 @@
 
 .footer {
     display: flex;
-    width: 45%;
+    width: 60%;
     justify-content: space-between;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .footer-icon {
-    width: 2.5vw;
     height: auto;
     color: var(--text);
 }
@@ -31,4 +31,25 @@
 
 .footer-icon:hover {
     color: var(--highlight);
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .footer-icon {
+        width: 2.5vw;
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .footer-icon {
+        width: 4.5vw;
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .footer-icon {
+        width: 6.5vw;
+    }
 }

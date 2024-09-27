@@ -13,22 +13,23 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .technical-heading {
     color: var(--text);
     font-family: var(--alternate-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
     font-weight: 500;
-    margin-bottom: 3vw;
+    margin-bottom: 2rem;
 }
 
 .technical-subtitle {
     color: var(--text);
     font-family: var(--body-font);
     font-weight: 400;
-    letter-spacing: .10vw;
 }
 
 .technical-container-outer {
@@ -166,11 +167,13 @@
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .technical-heading {
-        font-size: 1.91rem;
+        font-size: var(--dh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .technical-subtitle {
-        font-size: 1.54rem;
+        font-size: var(--dh3);
     }
 
     .technical-list-1 {
@@ -214,11 +217,13 @@
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .technical-heading {
-        font-size: 1.81rem;
+        font-size: var(--th2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .technical-subtitle {
-        font-size: 1.46rem;
+        font-size: var(--th3);
     }
 
     .technical-container-outer {
@@ -269,11 +274,13 @@
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .technical-heading {
-        font-size: 1.71rem;
+        font-size: var(--mh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .technical-subtitle {
-        font-size: 1.37rem;
+        font-size: var(--mh3);
     }
 
     .technical-list-1 {

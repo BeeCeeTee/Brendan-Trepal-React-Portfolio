@@ -1,18 +1,22 @@
+/* COMMON =============================================================================================> */
 .contact-page {
-        margin: 3vw 3vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    margin: 3vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .contact-heading {
     color: var(--text);
     font-family: var(--subtitle-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
+    text-decoration: underline double .15rem;
+    text-underline-offset: .75rem;
     font-weight: 500;
-    font-size: 4vw;
 }
 
 .contact-form {
@@ -27,11 +31,10 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     border-radius: 1vw;
-    height: 2vw;
+    height: 1.5rem;
     border: .3vw solid var(--secondary);
     background-color: var(--text);
     font-family: var(--body-font);
-    font-size: 1.5vw;
     padding-left: 1vw;
 }
 
@@ -40,30 +43,27 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     border-radius: 1vw;
-    height: 6vw;
+    height: 5rem;
     border: .3vw solid var(--secondary);
     background-color: var(--text);
     font-family: var(--body-font);
-    font-size: 1.5vw;
     padding-left: 1vw;
     color: var(--background);
 }
 
 ::placeholder {
     font-family: var(--body-font);
-    font-size: 1.5vw;
     color: var(--secondary);
 }
 
 .contact-submit {
     font-family: var(--alternate-font);
     font-weight: 600;
-    font-size: 1.5vw;
-    width: 50%;
-    height: 3vw;
+    width: 60%;
     margin-top: 1vw;
     margin-bottom: 1vw;
     border-radius: 1vw;
+    height: 2rem;
     border: none;
     background-color: var(--accent);
 }
@@ -76,6 +76,85 @@
 .contact-error {
     color: var(--text);
     font-family: var(--body-font);
-    font-size: 1.5vw;
-    letter-spacing: .10vw;
+}
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .contact-heading {
+        font-size: var(--dh1);
+    }
+
+    .contact-input {
+        font-size: var(--dh6);
+    }
+
+    .contact-message {
+        font-size: var(--dh6);
+    }
+
+    ::placeholder {
+        font-size: var(--dh6);
+    }
+
+    .contact-submit {
+        font-size: var(--dh6);
+    }
+
+    .contact-error {
+        font-size: var(--dh6);
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .contact-heading {
+        font-size: var(--th1);
+    }
+
+    .contact-input {
+        font-size: var(--th6);
+    }
+
+    .contact-message {
+        font-size: var(--th6);
+    }
+
+    ::placeholder {
+        font-size: var(--th6);
+    }
+
+    .contact-submit {
+        font-size: var(--th6);
+    }
+
+    .contact-error {
+        font-size: var(--th6);
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .contact-heading {
+        font-size: var(--mh1);
+    }
+
+    .contact-input {
+        font-size: var(--mh6);
+    }
+
+    .contact-message {
+        font-size: var(--mh6);
+    }
+
+    ::placeholder {
+        font-size: var(--mh6);
+    }
+
+    .contact-submit {
+        font-size: var(--mh6);
+    }
+
+    .contact-error {
+        font-size: var(--mh6);
+    }
 }

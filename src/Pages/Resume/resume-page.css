@@ -5,27 +5,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .resume-heading {
     color: var(--text);
     font-family: var(--subtitle-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
+    text-decoration: underline double .15rem;
+    text-underline-offset: .75rem;
     font-weight: 500;
 }
 
 .resume-paragraph {
     color: var(--text);
     font-family: var(--body-font);
-    letter-spacing: .10vw;
 }
 
 .resume-download {
     color: var(--accent);
     font-family: var(--body-font);
-    line-height: 1.5rem;
-    letter-spacing: .10vw;
     text-decoration: none;
 }
 
@@ -44,44 +45,44 @@
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .resume-heading {
-        font-size: 2.93rem;
+        font-size: var(--dh1);
     }
 
     .resume-paragraph {
-        font-size: 1.24rem;
+        font-size: var(--dh5);
     }
 
     .resume-download {
-        font-size: 1.24rem;
+        font-size: var(--dh5);
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .resume-heading {
-        font-size: 2.80rem;
+        font-size: var(--th1);
     }
 
     .resume-paragraph {
-        font-size: 1.17rem;
+        font-size: var(--th5);
     }
 
     .resume-download {
-        font-size: 1.17rem;
+        font-size: var(--th5);
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .resume-heading {
-        font-size: 2.14rem;
+        font-size: var(--mh1);
     }
 
     .resume-paragraph {
-        font-size: 1.09rem;
+        font-size: var(--mh5);
     }
 
     .resume-download {
-        font-size: 1.09rem;
+        font-size: var(--mh5);
     }
 }

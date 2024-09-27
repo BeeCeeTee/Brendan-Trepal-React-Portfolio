@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
+import './style-variables.css';
 import App from './App/App';
 import ErrorPage from './Pages/Error/ErrorPage';
 import AboutPage from './Pages/About/AboutPage';

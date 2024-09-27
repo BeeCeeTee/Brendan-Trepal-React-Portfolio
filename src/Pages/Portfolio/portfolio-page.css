@@ -1,20 +1,42 @@
+/* COMMON =============================================================================================> */
 .portfolio-page {
     margin: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .portfolio-heading {
     color: var(--text);
     font-family: var(--alternate-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
     font-weight: 500;
-    font-size: 3vw;
+    text-decoration: underline double .15rem;
+    text-underline-offset: .75rem;
     margin-bottom: 3vw;
 }
-.portfolio-container {
-    
+
+/* DESKTOP VIEW =============================================================================================> */
+@media screen and (min-width: 960px) {
+    .portfolio-heading {
+        font-size: var(--dh1);
+    }
+}
+
+/* TABLET VIEW =============================================================================================> */
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .portfolio-heading {
+        font-size: var(--th1);
+    }
+}
+
+/* MOBILE VIEW =============================================================================================> */
+@media screen and (max-width: 768px) {
+    .portfolio-heading {
+        font-size: var(--mh1);
+    }
 }

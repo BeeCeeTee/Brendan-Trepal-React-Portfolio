@@ -16,8 +16,10 @@
 .header-title {
     color: var(--text);
     font-family: var(--heading-font);
+    line-height: 3rem;
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
     font-variant: small-caps;
-    letter-spacing: .5vw;
 }
 
 /* DESKTOP VIEW =============================================================================================> */
@@ -28,7 +30,7 @@
     }
 
     .header-title {
-        font-size: 2.36rem;
+        font-size: var(--dh2);
         width: 57%;
     }
 }
@@ -42,7 +44,7 @@
 
     .header-title {
         text-align: center;
-        font-size: 2.25rem;
+        font-size: var(--th2);
     }
 }
 
@@ -55,6 +57,6 @@
 
     .header-title {
         text-align: center;
-        font-size: 2.14rem;
+        font-size: var(--mh2);
     }
 }

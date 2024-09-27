@@ -12,57 +12,62 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    line-height: var(--lh);
+    letter-spacing: var(--ls);
+    word-spacing: var(--ws);
 }
 
 .summary-heading {
     color: var(--text);
     font-family: var(--alternate-font);
     font-variant: small-caps;
-    letter-spacing: .25vw;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 .summary-paragraph {
     color: var(--text);
     font-family: var(--body-font);
-    text-indent: 2.5rem;
-    letter-spacing: .10vw;
-    line-height: 1.5rem;
 }
 
 /* DESKTOP VIEW =============================================================================================> */
 @media screen and (min-width: 960px) {
     .summary-heading {
-        font-size: 1.91rem;
+        font-size: var(--dh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .summary-paragraph {
-        font-size: 1rem;
-        width: 62ch;
+        font-size: var(--dh6);
+        width: var(--dpw);
     }
 }
 
 /* TABLET VIEW =============================================================================================> */
 @media screen and (min-width: 769px) and (max-width: 959px) {
     .summary-heading {
-        font-size: 1.81rem;
+        font-size: var(--th2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .summary-paragraph {
-        font-size: .938rem;
-        width: 46ch;
+        font-size: var(--th6);
+        width: var(--tpw);
     }
 }
 
 /* MOBILE VIEW =============================================================================================> */
 @media screen and (max-width: 768px) {
     .summary-heading {
-        font-size: 1.71rem;
+        font-size: var(--mh2);
+        text-decoration: underline .1rem;
+        text-underline-offset: .75rem;
     }
 
     .summary-paragraph {
-        font-size: .875rem;
-        width: 30ch;
+        font-size: var(--mh6);
+        width: var(--mpw);
     }
 }
